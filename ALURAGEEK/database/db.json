@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "nombre": "dark blaider",
+      "precio": "100.000",
+      "imagen": "https://cdnx.jumpseller.com/hobbies-collectibles/image/28442501/resize/640/640?1665851807",
+      "id": "1"
+    },
+    {
+      "nombre": "Batman",
+      "precio": "200.000",
+      "imagen": "https://static-pu.salcobrandonline.cl/images/spree/images/38207/attachments/large/product-images_578135-1.jpg?1624982612",
+      "id": "2"
+    },
+    {
+      "nombre": "Watson",
+      "precio": "500.000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_857687-MCO74477692181_022024-O.webp",
+      "id": "3"
+    },
+    {
+      "id": "f243",
+      "nombre": "Goku saiyayin 3",
+      "precio": "500.000",
+      "imagen": "https://m.media-amazon.com/images/I/718C3PfctWL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
+    },
+    {
+      "id": "be74",
+      "nombre": "Peso Ball",
+      "precio": "60.000",
+      "imagen": "https://pokemonalpha.es/wp-content/uploads/2016/06/Peso-Ball.png"
+    }
+  ]
+}

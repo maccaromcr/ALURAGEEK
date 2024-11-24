@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header  class="header">
+        <img src="./img/store-front.png" alt="imagen tienda">
+        <h1>AluraGeek</h1>
+    </header>
+
+    
+    <main class="main-container">
+
+        <!-- CONTENEDOR DE PRODUCTOS  -->
+        <section class="producto">
+            <h1 >Productos</h1>
+            <div class="container-products" data-product>
+                
+            </div>
+        </section>
+
+        <!-- SECCION DE AGREGAR PRODUCTOS -->
+        <section>
+            <div class="form">
+                <h1 class="form-titulo">Agregar Producto Nuevo</h1>
+                <form class=" form-container" data-form>
+                    <input data-nombre class="texto" placeholder="Nombre producto" type="text">
+                    <input data-precio class="texto" placeholder="Precio" type="text">
+                    <input data-imagen class="texto" placeholder="Imagen" type="text">
+                    <span class="mensajeError" data-mensage></span>
+                        <div class="button-container">
+                        <button type="submit" class="button-submit botones" id="button">Enviar</button>
+                        <button type="reset" class="button-clear botones" id="button" >Limpiar</button>
+                        </div>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div>
+            <img src="./img/store-front.png" alt="Imagen proyecto">
+        </div>
+        <p class="parrafo">Desarrolado Por @ Mauricio Castellano</p>
+        <p class="parrafo">Proyecto AluraLatam 2024</p>
+        <p class="parrafo">FrontEnd</p>
+    </footer>
+    
+    <script src="js/controllers/main.js" type="module"></script>
+</body>
+</html>
